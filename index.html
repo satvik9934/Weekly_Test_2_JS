@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse Event</title>
+    <style>
+      .header{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        height: 600px;
+        justify-content: center;
+        gap: 3rem;
+        font-family: cursive;
+      }
+
+      body {
+        background-color: rgb(3, 3, 133);
+      }
+      .container > div {
+        border: 2px solid white;
+        width: 200px;
+        height: 100px;
+        color: white;
+        text-align: center;
+        align-items: center;
+      }
+
+      .container > h4 {
+        color: white;
+      }
+
+      .container1 > div{
+        text-align: center;
+        border: 2px solid white;
+        width: 200px;
+        height: 100px;
+        color: white;
+       ;
+      }
+      #div1,#div3{
+        margin-top: 25px;
+        font-size: 30px;
+      }
+
+      .container1 > h4 {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h4>Mouse X Prosition(px)</h4>
+        <div > <p id="div3">455</p></div>
+      </div>
+
+      <div class="container1">
+        <h4>Mouse Y Prosition(px)</h4>
+        <div > <p id="div1">522</p></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
